@@ -1,52 +1,52 @@
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     * {
         max-width: 100%;
     }
-    
+
     body {
         overflow-x: hidden;
     }
-    
+
     .container {
         padding: 0 16px;
         max-width: 100%;
         width: 100%;
     }
-    
+
     .top-banner {
         width: 100%;
         font-size: 12px;
         padding: 8px 16px;
     }
-    
+
     .top-banner .container {
         padding: 0;
     }
-    
+
     .navbar {
         padding: 12px 0;
         position: relative;
     }
-    
+
     .nav-container {
         flex-direction: row;
         flex-wrap: wrap;
         padding: 0 16px;
         gap: 10px;
     }
-    
+
     .logo {
         font-size: 24px;
         order: 1;
         flex: 1;
     }
-    
+
     .nav-actions {
         order: 2;
         flex: 1;
         justify-content: flex-end;
     }
-    
+
     .nav-links {
         order: 3;
         width: 100%;
@@ -55,43 +55,43 @@
         margin-top: 10px;
         flex-wrap: wrap;
     }
-    
+
     .nav-link {
         font-size: 14px;
         padding: 4px 8px;
     }
-    
+
     .search-box {
         width: 40px;
         min-width: 40px;
     }
-    
+
     .search-input {
         display: none;
     }
-    
+
     .search-icon {
         font-size: 20px;
         left: 0;
     }
-    
+
     .detheader {
         padding: 20px 0;
     }
-    
+
     .detheader-container {
         flex-direction: column;
         padding: 0 16px;
         width: 100%;
         max-width: 100%;
     }
-    
+
     .detheader-first {
         width: 100%;
         margin: 0;
         flex-direction: column;
     }
-    
+
     .detheader-first-first {
         flex-direction: row;
         width: 100%;
@@ -100,106 +100,106 @@
         margin-bottom: 12px;
         justify-content: center;
     }
-    
+
     .detheader-first-image {
         width: 70px;
         height: 70px;
         border-radius: 8px;
         object-fit: cover;
     }
-    
+
     .detheader-first-images {
         width: 100%;
         height: 350px;
         border-radius: 12px;
     }
-    
+
     .detheader-second {
         width: 100%;
         margin: 20px 0 0 0;
         padding: 0;
         gap: 20px;
     }
-    
+
     .detheader-second-first {
         width: 100%;
     }
-    
+
     .detheader-second-first-title {
         font-size: 24px;
         line-height: 1.2;
     }
-    
+
     .detheader-second-first-title-box {
         width: 100%;
         justify-content: flex-start;
         gap: 12px;
         margin: 12px 0;
     }
-    
+
     .detheader-second-first-txt {
         font-size: 14px;
         line-height: 1.5;
     }
-    
+
     .detheader-second-second,
     .detheader-second-third {
         width: 100%;
         padding: 20px 0;
     }
-    
+
     .detheader-second-second-box {
         gap: 10px;
     }
-    
+
     .detheader-second-third-box {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
     }
-    
+
     .detheader-second-third-box-link {
         padding: 8px 16px;
         font-size: 14px;
         min-width: 70px;
         text-align: center;
     }
-    
+
     .detheader-second-fourth {
         flex-direction: column;
         width: 100%;
         gap: 12px;
     }
-    
+
     .detheader-second-fourth-first {
         width: 100%;
         max-width: 150px;
         margin: 0 auto;
     }
-    
+
     .detheader-second-fourth-second {
         width: 100%;
         text-align: center;
         padding: 14px;
         font-size: 16px;
     }
-    
+
     /* Dating Section */
     .dating {
         margin-top: 30px;
     }
-    
+
     .dating-container {
         padding: 0 16px;
     }
-    
+
     .dating-first {
         width: 100%;
         margin: 0;
         justify-content: space-between;
         gap: 0;
     }
-    
+
     .dating-first-first,
     .dating-first-second,
     .dating-first-third {
@@ -208,14 +208,14 @@
         height: 40px;
         padding: 0 8px;
     }
-    
+
     .dating-first-first-title,
     .dating-first-second-title,
     .dating-first-third-title {
         font-size: 12px;
         white-space: nowrap;
     }
-    
+
     .dating-second {
         width: 100%;
         margin: 20px 0 0 0;
@@ -223,105 +223,103 @@
         align-items: flex-start;
         gap: 12px;
     }
-    
+
     .dating-second-title {
         font-size: 20px;
     }
-    
+
     .dating-second-first {
         width: 100%;
         justify-content: space-between;
     }
-    
+
     .dating-second-first-link,
     .dating-second-first-links {
         padding: 8px 16px;
         font-size: 12px;
     }
-    
+
     .dating-third {
         width: 100%;
         margin: 20px 0 0 0;
         grid-template-columns: 1fr;
         gap: 12px;
     }
-    
+
     .dating-third-first {
         width: 100%;
         padding: 16px;
         height: auto;
     }
-    
+
     .dating-third-first-first {
         width: 100%;
         margin: 0 0 12px 0;
     }
-    
+
     .dating-third-first-title {
         margin: 0 0 8px 0;
         font-size: 16px;
     }
-    
+
     .dating-third-first-txt {
         margin: 0 0 8px 0;
         font-size: 14px;
         line-height: 1.4;
     }
-    
+
     .dating-third-first-txts {
         margin: 0;
         font-size: 12px;
     }
-    
-    /* New Arrivals */
+
     .new-arrivals {
         padding: 30px 0;
     }
-    
+
     .section-title {
         font-size: 24px;
         margin-bottom: 20px;
     }
-    
+
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
     }
-    
+
     .product-card {
         border-radius: 8px;
     }
-    
+
     .product-image {
         height: 160px;
     }
-    
+
     .product-info {
         padding: 12px;
     }
-    
+
     .product-title {
         font-size: 14px;
     }
-    
+
     .product-rating {
         font-size: 12px;
     }
-    
+
     .current-price {
         font-size: 16px;
     }
-    
+
     .old-price {
         font-size: 14px;
     }
-    
+
     .new-arrival {
         width: 100%;
         margin: 20px 0;
     }
-    
-    /* End Section */
+
     .end {
         position: relative;
         width: 100%;
@@ -329,7 +327,7 @@
         padding: 30px 0 20px 0;
         background-color: #f0f0f0;
     }
-    
+
     .end-top {
         position: relative;
         top: 0;
@@ -341,29 +339,29 @@
         text-align: center;
         background-color: #000;
     }
-    
+
     .end-top-title {
         width: 100%;
         font-size: 20px;
         margin: 0 0 16px 0;
         line-height: 1.3;
     }
-    
+
     .end-top-box {
         width: 100%;
         margin: 0;
     }
-    
+
     .end-top-box-text,
     .end-top-box-link {
         width: 100%;
         font-size: 14px;
     }
-    
+
     .end-container {
         padding: 0 16px;
     }
-    
+
     .end-first {
         width: 100%;
         margin: 0;
@@ -371,41 +369,41 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-        border-bottom: 1px solid rgba(0,0,0,0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         padding-bottom: 24px;
     }
-    
+
     .end-first-first,
     .end-first-second {
         width: 100%;
     }
-    
+
     .end-first-first-title {
         font-size: 24px;
         margin-bottom: 12px;
     }
-    
+
     .end-first-first-txt {
         font-size: 14px;
         margin-bottom: 16px;
         line-height: 1.4;
     }
-    
+
     .end-first-first-box {
         gap: 12px;
     }
-    
+
     .end-first-second-title {
         font-size: 18px;
         margin-bottom: 12px;
     }
-    
+
     .end-first-second-txt {
         font-size: 14px;
         margin-bottom: 6px;
         line-height: 1.4;
     }
-    
+
     .end-second {
         width: 100%;
         margin: 24px 0 0 0;
@@ -413,25 +411,25 @@
         align-items: flex-start;
         gap: 16px;
         padding-top: 16px;
-        border-top: 1px solid rgba(0,0,0,0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
+
     .end-second-txt {
         font-size: 12px;
         order: 2;
     }
-    
+
     .end-second-box {
         width: 100%;
         justify-content: space-between;
         order: 1;
     }
-    
+
     .end-second-box-image {
         height: 20px;
         width: auto;
     }
-    
+
     .style,
     .customers,
     .end,
@@ -439,7 +437,7 @@
         width: 100% !important;
         max-width: 100% !important;
     }
-    
+
     .style-container,
     .customers-container,
     .dating-container {
